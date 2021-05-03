@@ -13,8 +13,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://memegenerator.net/img/instances/50071351/jewels.jpg'),
+            image: AssetImage('images/diamond.jpeg'),
           ),
         ),
       ),
